@@ -50,7 +50,7 @@ print cap_val
 "}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 2030 -1430 1 0 {name=M1
 L=10
-W=10
+W=5
 nf=1
 mult=10
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

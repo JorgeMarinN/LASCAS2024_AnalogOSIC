@@ -182,9 +182,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 350 -570 0 1 {name=M3
 L=0.7
-W=5
-nf=1
-mult=7
+W=35
+nf=7
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -196,9 +196,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 470 -570 0 0 {name=M4
 L=0.7
-W=5
-nf=1
-mult=7
+W=35
+nf=7
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -210,9 +210,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 690 -480 0 0 {name=M5
 L=0.35
-W=5
-nf=1
-mult=130
+W=650
+nf=130
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -224,9 +224,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 690 -250 0 0 {name=M6
 L=0.7
-W=5
-nf=1
-mult=70
+W=350
+nf=70
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -238,9 +238,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 390 -250 0 0 {name=M7
 L=0.7
-W=5
-nf=1
-mult=2
+W=10
+nf=2
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -252,9 +252,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 190 -250 0 1 {name=M8
 L=0.7
-W=5
-nf=1
-mult=2
+W=10
+nf=2
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -266,7 +266,7 @@ spiceprefix=X
 }
 C {devices/capa.sym} 650 -390 1 0 {name=C2
 m=1
-value=2.5p
+value=1.6p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_wire.sym} 710 -610 0 1 {name=l25 sig_type=std_logic lab=VDD
